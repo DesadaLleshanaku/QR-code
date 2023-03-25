@@ -1,0 +1,62 @@
+body{
+  background-color:rgba(213,225,239,255);
+}
+
+
+.container{
+    height: 380px;
+    width: 240px;
+    position: relative;
+    margin: 20px;
+    align-items: center;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:white;
+    border-radius: 5%;
+}
+
+.overlay{
+    height: 220px;
+    width: 220px;
+    background-color:rgba(54,133,254,255);
+    border-radius: 5%;
+    z-index: 9;
+    margin: 10px 10px;
+}
+.image{
+    display: inline-block;
+    content:url(/qr-code-component-main/image-qr-code.png);
+}
+
+@font-face {
+    font-family: myfirstfont;
+    src: url(Outfit-Bold.ttf);
+}
+
+#h4{
+   position: absolute;
+   font-family: myfirstfont;
+   font-size: 18px;
+   z-index: 10;
+   top: 240px;
+   left: 10px;
+   text-align:center;
+   color: hsl(228, 45%, 44%);
+}
+
+#h6{
+    position:absolute;
+    font-family: myfirstfont;
+    z-index: 10;
+    font-size: 13px;
+    top: 300px;
+    left: 10px;
+    color: rgb(125, 125, 129);
+    text-align: center;
+}
